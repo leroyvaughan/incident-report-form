@@ -17,3 +17,6 @@ Digizited Form App has functionality of:
 
 ## Live App
 here(https://cfan-incident-report.herokuapp.com/)
+
+  - The submission part doesn't actually work.
+  - The routes have been commented out on the node.js side (/server) because of well...you know why
