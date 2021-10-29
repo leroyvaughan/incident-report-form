@@ -1,0 +1,181 @@
+/***********************************************************
+This file for global styles only
+  If the style is component specific, put the css there
+  ************************************************************/
+
+body {
+  margin: 0;
+  font-family: 'myriad-pro';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root, #App {
+  height: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+
+#App {
+  padding-bottom: 21px;
+}
+
+.lit-hdr {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  color: #ccc;
+  font-size: 2rem;
+  padding: 7px;
+}
+
+#main.no-scroll {
+  overflow: hidden;
+}
+
+.app-hdr {
+  background: url(misty_forest.jpg) 100%;
+  background-size: 100% auto;
+  border-bottom: 1px solid #ccc;
+  padding: 7px 0;
+}
+.app-hdr, .sub-hdr{
+  text-align: center;
+}
+
+.logoTxt span{
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  font-size: clamp(2.1rem, -0.875rem + 8.333vw, 4rem);
+}
+#cTxt_hdr {
+  border: 2px solid #fff;
+  padding: 3px 4px;
+  margin-right: 12px;
+}
+
+#app-logo {
+  width: 101px !important;
+}
+
+#app-ftr a {
+  color: #777;
+}
+
+#app-ftr a:hover {
+  color: green;
+}
+
+
+.top-border {
+  border-top: 1px solid #999;
+  padding-top: 4px;
+}
+.form-group {
+  padding-top: 30px;
+}
+.form-group-hdr {
+  color: #777;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.req-fld, .err-txt {
+  font-weight: bold;
+  color: red;
+}
+
+.fldInfoText {
+  color: #777;
+}
+
+.next-btn {
+  margin-left: 7px;
+}
+.next-btn:hover {
+  background-color: #444;
+  color: #fff;
+}
+.back-btn {
+  background-color: #aaa;
+  color: #fff;
+}
+
+
+
+
+
+
+html body .red {
+  background-color: #e23c3c;
+  color: #fff;
+}
+html body .green {
+  background-color: green;
+  color: #fff;
+}
+
+#alert {
+  border: 1px dotted red;
+  margin-bottom: 21px;
+  padding: 12px;
+}
+#alert h2 {
+  color: red;
+  margin-bottom: 0;
+}
+
+
+
+
+.edit-report .row {
+  padding: 0 15px;
+}
+
+
+.preview-img {
+  max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+  #new-btn {
+    display:none;
+  }
+}
+
+
+
+
+.testDiv {
+  margin:35px 0;
+  border:2px solid red;
+}
+
+
+
+
+

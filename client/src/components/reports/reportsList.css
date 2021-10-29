@@ -1,0 +1,40 @@
+
+
+@media screen and (min-width: 40em) {
+  td, th {
+    padding: 7px !important;
+    vertical-align: top;
+  }
+
+  th {
+    background-color: #e1e1e1;
+    /* color: #fff; */
+    font-size: 1.7rem;
+    border-top: 1px solid #ccc;
+  }
+
+  .no-wrap {
+    white-space: nowrap;
+  }
+
+  .btn-wrap {
+    border-top: 3px double #999;
+    margin: 101px 0;
+    padding-top: 21px;
+  }
+
+}
+
+
+
+
+.view-link {
+  color:#3F51B5;
+}
+.edit-link {
+  color: red;
+}
+
+td a:hover {
+  color: #999;
+}
